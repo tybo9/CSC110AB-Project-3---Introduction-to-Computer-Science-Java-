@@ -1,0 +1,32 @@
+import java.util.Scanner;
+public class OdometerDemo
+{
+   public static void main(String[] args)
+   {
+        Scanner keyboard = new Scanner(System.in);
+
+        int UserInput;
+        Odometer trip1 = new Odometer();
+        Odometer trip2 = new Odometer();
+        
+        System.out.println("Trip 1:");
+        trip1.MPG();
+        trip1.Miles();
+        trip1.printOutput();
+        keyboard.nextLine();
+        trip1.LogMiles();
+        trip1.printLog();
+        System.out.println("Press number 1 to go to next trip");
+        trip1.reset();
+        
+        System.out.println("Trip 2 :");
+        trip2.MPG();
+        trip2.Miles();
+        trip2.printOutput();
+        keyboard.nextLine();
+        trip2.LogMiles();
+        trip2.printLog();
+        trip2.reset();
+    }
+}
+        

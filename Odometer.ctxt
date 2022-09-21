@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=int\ MPG()
+comment1.params=
+comment1.target=double\ Miles()
+comment2.params=
+comment2.target=void\ printOutput()
+comment3.params=
+comment3.target=double\ LogMiles()
+comment4.params=
+comment4.target=void\ printLog()
+comment5.params=
+comment5.target=void\ reset()
+numComments=6
